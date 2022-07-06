@@ -1,12 +1,14 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-body{
+
+body {
     font-family: 'Poppins', sans-serif;
 }
+
 /***banners section***/
-#banner-section{
+#banner-section {
     color: #fff;
     width: 100%;
     height: 100vh;
@@ -16,113 +18,131 @@ body{
     background-position: center;
     position: relative;
 }
-#banner-section h1{
+
+#banner-section h1 {
     color: #fff;
 }
-.banner-content{
+
+.banner-content {
     width: 50%;
     height: 60vh;
     display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: row;
-	flex-wrap: wrap;
-	flex-flow: row wrap;
-	align-content: flex-end;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-content: flex-end;
     margin-left: 25%;
     text-align: center;
 }
-.banner-content h1{
+
+.banner-content h1 {
     font-size: 50px;
     line-height: 70px;
 }
-.banner-content p{
+
+.banner-content p {
     font-size: 30px;
     line-height: 40px;
 }
-.home-button{
+
+.home-button {
     padding: 15px 30px;
     background-color: #FF5959;
     outline: 0;
     border: 0;
     border-radius: 5px;
 }
-.home-button a{
+
+.home-button a {
     color: #fff;
     text-decoration: none;
     font-size: 20px;
     line-height: 30px;
 }
+
 /* *donate section* */
-#donate-section{
+#donate-section {
     margin-top: 40px;
     width: 100%;
 }
-.donate-title{
+
+.donate-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     justify-content: center;
 }
-.donate-title h1{
+
+.donate-title h1 {
     font-size: 40px;
     line-height: 5rem;
 }
-.donate-title p{
+
+.donate-title p {
     text-align: center;
     font-size: 18px;
     line-height: 27px;
 }
-.donate-items{
+
+.donate-items {
     width: 50%;
     /* height: 60vh; */
     display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
     column-gap: 20px;
     margin-top: 3%;
     margin-left: 25%;
 }
-.item{
+
+.item {
     display: flex;
     align-items: center;
-	justify-content: center;
+    justify-content: center;
     width: 6em;
     height: 6em;
     border: 1px solid #9b9797;
     text-align: center;
 }
-.item:hover{
+
+.item:hover {
     color: #FF5959;
     background-color: #FFEEEE;
     border: 1px solid #FF5959;
 }
-.active{
+
+.active {
     color: #FF5959;
     background-color: #FFEEEE;
     border: 1px solid #FF5959;
 }
-hr{
+
+hr {
     width: 50%;
     color: #9b9797;
 }
-.donate-submit{
+
+.donate-submit {
     width: 50%;
     /* height: 60vh; */
     margin-top: 40px;
     display: flex;
     flex-direction: column;
-	align-items: center;
-	justify-content: center;
+    align-items: center;
+    justify-content: center;
     margin-left: 25%;
 }
-.donate-submit p{
+
+.donate-submit p {
     line-height: 3rem;
     font-size: 18px;
 }
-.link-btn{
+
+.link-btn {
     width: 30vh;
     height: 7vh;
     margin-top: 20px;
@@ -132,175 +152,205 @@ hr{
     border-radius: 5px;
 
 }
-.link-btn a{
+
+.link-btn a {
     color: #fff;
     font-size: 20px;
     line-height: 2.85rem;
 }
+
 /**service section**/
-.services-section{
+.services-section {
     width: 100%;
     margin-top: 40px;
 }
-.service-title{
+
+.service-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     justify-content: center;
-     text-align: center;
-     margin-top: 5%;
+    text-align: center;
+    margin-top: 5%;
 }
-.service-title h1{
+
+.service-title h1 {
     font-size: 40px;
     line-height: 5rem;
 }
-.service-title p{
+
+.service-title p {
     font: 20px;
     line-height: 3rem;
 }
-.service-content{
+
+.service-content {
     width: 100%;
     display: flex;
-	align-items: center;
-	justify-content: center;
+    align-items: center;
+    justify-content: center;
     column-gap: 10px;
-    margin-top: 40px;   
-	    
+    margin-top: 40px;
+
 }
-.service-desc h1{
+
+.service-desc h1 {
     font-size: 25px;
     line-height: 50px;
 }
-.service-desc p{
+
+.service-desc p {
     font-size: 16px;
     line-height: 1.8rem;
 }
-.service-img img{
+
+.service-img img {
     width: 100px;
     height: 80px;
 }
-.service{
+
+.service {
     width: 50vh;
     height: 40vh;
     border-radius: 5px;
     padding: 10px 15px;
 }
-.service-1{
+
+.service-1 {
     background: rgba(79, 157, 166, 0.1);
-    
+
 }
-.service-2{
+
+.service-2 {
     background: rgba(255, 89, 89, 0.1);
 }
-.service-3{
+
+.service-3 {
     background: #FFF4D6;
 }
+
 /**about us**/
-#about-us{
+#about-us {
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
-	justify-content: center;
+    justify-content: center;
     margin-top: 5%;
 }
-.about-content{
+
+.about-content {
     width: 80%;
     display: flex;
     flex-direction: row;
     align-items: center;
-	justify-content: center;
+    justify-content: center;
 }
-.about-img{
+
+.about-img {
     width: 50%;
 }
-.about-img img{
+
+.about-img img {
     width: 500px;
     height: 400px;
 }
-.about-desc{
+
+.about-desc {
     width: 50%;
 }
-.about-desc .about-subtitle{
+
+.about-desc .about-subtitle {
     font-size: 20px;
     line-height: 5rem;
 
 }
-.about-story{
+
+.about-story {
     font-size: 18px;
     line-height: 1.87rem;
 }
-.about-desc h2{
+
+.about-desc h2 {
     font-size: 30px;
     line-height: 3rem;
 }
+
 /**newsletter**/
-#newsletter{
+#newsletter {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-	justify-content: center;
+    justify-content: center;
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
- }
- .newsletter-title h1{
+}
+
+.newsletter-title h1 {
     font-size: 40px;
     line-height: 5rem;
- }
- .newsletter-title p{
+}
+
+.newsletter-title p {
     font-size: 20px;
     line-height: 3rem;
- }
-.newletter-form{
+}
+
+.newletter-form {
     width: 100vh;
     height: 30vh;
     display: flex;
     flex-direction: row;
     align-items: center;
-	justify-content: center;
+    justify-content: center;
     text-align: center;
     background-color: #FFF4D6;
-    
+
 
 }
-.newsletter-form input{
+
+.newsletter-form input {
     padding: 15px 60px;
     z-index: 2;
     border: 0px;
     outline: 0;
     font-size: 20px;
 }
-.newsletter-form button{
-    padding: 15px 30px;    
+
+.newsletter-form button {
+    padding: 15px 30px;
     margin-left: -5px;
-    background-color: #FF5959 ;
+    background-color: #FF5959;
     font-size: 20px;
     color: #fff;
     border: 0px;
     outline: 0;
 }
+
 /**footer**/
-footer{
+footer {
     width: 100%;
     height: 20vh;
     background-color: #000;
     display: flex;
     flex-direction: column;
     align-items: center;
-	justify-content: center;
+    justify-content: center;
     text-align: center;
 }
-footer h2{
+
+footer h2 {
     font-size: 40px;
     line-height: 53px;
     color: #FF5959;
     text-align: center;
     font-family: 'Lobster', cursive;
 }
-footer p{
+
+footer p {
     font-size: 16px;
     line-height: 24px;
     color: #fff;
